@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MediaOcean Regression Suite]">
+  <test thread-count="5" verbose="0" name="Mediaocean Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qa.MediaOcean.tests.stackOverflowTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="searchSelenium"/>
+        </methods>
+      </class> <!-- com.qa.MediaOcean.tests.stackOverflowTest -->
+    </classes>
+  </test> <!-- Mediaocean Test(failed) -->
+</suite> <!-- Failed suite [MediaOcean Regression Suite] -->
